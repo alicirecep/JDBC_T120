@@ -12,7 +12,7 @@ public class JDBC_Query01 {
 
     /*
             URL: "jdbc:mysql://45.87.83.5/u168183796_qawonder";
-            USERNAME= "wonderworld_qawcollegeuser";
+            USERNAME= "u168183796_qawonderuser";
             PASSWORD="1gvyfx6#Q";
      */
 
