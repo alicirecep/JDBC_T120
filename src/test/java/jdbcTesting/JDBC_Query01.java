@@ -1,8 +1,6 @@
 package jdbcTesting;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class JDBC_Query01 {
 
@@ -26,8 +24,16 @@ public class JDBC_Query01 {
     //2. Adim olarak : Veritabani ile iletişimi başlat
 
       Connection connection =  DriverManager.getConnection(  "jdbc:mysql://45.87.83.5/u168183796_qawonder",
-                                                             "wonderworld_qawcollegeuser",
+                                                             "u168183796_qawonderuser",
                                                              "1gvyfx6#Q");
+
+
+
+    // 3. Adim olarak :   SQL ifadeleri oluştur ve çalıştır (Select, Insert/update/delete)
+
+        String query= "SELECT name FROM u168183796_qawonder.staff";
+
+       Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
 
 
     }
