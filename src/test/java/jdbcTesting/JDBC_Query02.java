@@ -29,5 +29,7 @@ public class JDBC_Query02 {
         System.out.println(resultSet.getString("father_name"));
 
 
+
+
     }
 }
