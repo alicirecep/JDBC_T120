@@ -11,7 +11,7 @@ public class JDBC_Query01 {
   //  Database yoneticinden ilgili database bilgilerini ( database access informaation) almak olmalidir.
 
     /*
-            URL: "jdbc:mysql://194.140.198.209/wonderworld_qa2";
+            URL: "jdbc:mysql://45.87.83.5/u168183796_qawonder";
             USERNAME= "wonderworld_qawcollegeuser";
             PASSWORD="1gvyfx6#Q";
      */
@@ -25,11 +25,9 @@ public class JDBC_Query01 {
 
     //2. Adim olarak : Veritabani ile iletişimi başlat
 
-      Connection connection =  DriverManager.getConnection("jdbc:mysql://194.140.198.209/wonderworld_qa2",
-                "wonderworld_qawcollegeuser",
-                "1gvyfx6#Q");
-
-
+      Connection connection =  DriverManager.getConnection(  "jdbc:mysql://45.87.83.5/u168183796_qawonder",
+                                                             "wonderworld_qawcollegeuser",
+                                                             "1gvyfx6#Q");
 
 
     }
